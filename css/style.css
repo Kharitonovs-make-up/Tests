@@ -1,0 +1,52 @@
+.box { margin: auto; width: 400px; height: 400px; background-color: #6A00FF; border: 3px solid #6A00FF; -webkit-transition: matrix3d 1s ease-in-out; transition: matrix3d 1s ease-in-out; position: relative; }
+
+.box-thing { position: absolute; left: 50%; top: 50%; width: 150px; height: 150px; margin-left: -75px; margin-top: -75px; border-radius: 30%; background: yellow; -webkit-transition: background 1s .5s ease-in-out; transition: background 1s .5s ease-in-out; position: relative; -webkit-animation: MotionScale 3s alternate linear infinite; animation: MotionScale 3s alternate linear infinite; }
+
+.box-thing span { position: absolute; left: 25%; top: 30%; color: brown; font-size: 18px; font-weight: 700; }
+
+.box-thing:hover { background: green; -webkit-transform-origin: center center; transform-origin: center center; -webkit-transform: matrix(-1, 0, 0, 1, 0, 0); transform: matrix(-1, 0, 0, 1, 0, 0); }
+
+@-webkit-keyframes MotionScale { from { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -50, -100, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -50, -100, 0, 1); }
+  50% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0.8); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0.8); }
+  to { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -50, -100, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -50, -100, 0, 1); } }
+
+@keyframes MotionScale { from { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -50, -100, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -50, -100, 0, 1); }
+  50% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0.8); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0.8); }
+  to { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -50, -100, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -50, -100, 0, 1); } }
+
+@-webkit-keyframes move { from { margin-left: 1px;
+    margin-top: 1px; }
+  to { margin-left: 300px;
+    margin-top: 300px; } }
+
+@keyframes move { from { margin-left: 1px;
+    margin-top: 1px; }
+  to { margin-left: 300px;
+    margin-top: 300px; } }
+
+#numbers { margin-bottom: 25px; }
+
+progress { width: 5%; }
+
+.table-footwear { width: 1140px; margin: auto; }
+
+table { width: 100%; text-align: center; }
+
+table td { border: 1px solid purple; padding: 10px; }
+
+.th-name { padding-right: 15px; }
+
+.tbody { background: #4AC4ED; }
+
+thead { background: #4AED55; }
+
+#brick { width: 40px; height: 20px; background: #EE6B47; position: relative; cursor: pointer; }
+
+#path { outline: 1px solid #E8C48E; width: 540px; height: 20px; }
+
+#field { height: 200px; max-width: 500px; border: 3px black groove; position: relative; }
+
+#ball { position: absolute; cursor: pointer; }
+
+#elem { -webkit-transform: matrix(1, 0, -0.3, 2, 180, 30); transform: matrix(1, 0, -0.3, 2, 180, 30); }
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,13 @@
+# ---- ФАЙЛЫ ----
+# Игнорирование по типу файла, будут игнорироваться в АБСОЛЮТНО всех директориях
+# Например /files/data.zip, /server.log, /uploads/users/data/info.xls
+*.zip
+*.log
+*.pdf
+*.xls
+# Игнорирование всех файлов и папок в ЛЮБЫХ директориях с указанным именем
+# Например /images/user.jpg, /core/images/user.jpg
+node_modules/*
+.vscode/*
+.idea/*
+jquery.maskedinput-master/*
